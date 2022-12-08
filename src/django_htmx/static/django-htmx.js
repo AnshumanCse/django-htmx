@@ -17,6 +17,7 @@
         // Need to directly call Django’s onload function since browser won’t
         window.onload();
       }
+      return isDebug();
     });
   }
 }
